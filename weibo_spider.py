@@ -50,7 +50,7 @@ def main():
                '迪丽热巴': '2304131669879400',
                '邓伦': '2304131865901305'
                }
-    name = input('输入姓名: ')
+    name = input('Weibo_ID: ')
     id = user_id.get(name)
     current_time = time.strftime("%m%d%H%M%S", time.localtime())
 
